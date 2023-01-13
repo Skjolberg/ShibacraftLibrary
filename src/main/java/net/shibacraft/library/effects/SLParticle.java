@@ -7,7 +7,6 @@ import org.bukkit.Location;
 
 @Getter
 @Setter
-//@NoArgsConstructor
 public class SLParticle {
 
     private String name;

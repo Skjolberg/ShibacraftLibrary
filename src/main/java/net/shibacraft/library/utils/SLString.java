@@ -11,8 +11,8 @@ public class SLString {
     /**
      * Convert a location to String
      *
-     * @param location  Location
-     * @return          location as String
+     * @param location  {@link Location}
+     * @return          String
      */
     public String locationToString(Location location) {
         World world = location.getWorld();
@@ -24,7 +24,7 @@ public class SLString {
      * Convert a String to location
      *
      * @param str   String
-     * @return      location
+     * @return      {@link Location}
      */
     public Location stringToLocation(String str) {
         String[] arr = str.split(";");
@@ -36,8 +36,8 @@ public class SLString {
      * Convert a location to coordinates.
      * The +1 in "Y" is for when teleporting to that area to appear at the appropriate height.
      *
-     * @param location      Location
-     * @return              string as coordinates
+     * @param location      {@link Location}
+     * @return              String as coordinates
      */
     public String locationToCoords(Location location){
         World world = location.getWorld();
@@ -48,8 +48,8 @@ public class SLString {
     /**
      * Convert a location to coordinates with commas
      *
-     * @param location      Location
-     * @return              string as coordinates
+     * @param location      {@link Location}
+     * @return              String as coordinates
      */
     public String locationToCoordsCommas(Location location){
         World world = location.getWorld();
